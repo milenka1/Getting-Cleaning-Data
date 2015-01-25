@@ -8,14 +8,12 @@ This is a repository for code written for the Getting and Cleaning Data -Courser
 
 1- Unzip the source ("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip") into a    folder on your local drive, like  C:\Users\yourname\Getting Cleaning Data\
 
-2- Put run_analysis.R into C:\Users\yourname\Getting Cleaning Data\UCI HAR Dataset\
+2- Put run_analysis.R into C:\Users\yourname\Getting Cleaning Data
 
-3- In RStudio: setwd("C:\Users\yourname\Getting Cleaning Data\UCI HAR Dataset\"),
+3- In RStudio: setwd("C:\Users\yourname\Getting Cleaning Data"),
 
 4- source("run_analysis.R") 
-   NOTE: It is important to note: the run_analysis.R needs to be in UCI HAR Dataset directory.     
-   run_analysis.R only assumes the location where it is saved and ran.
-
+   
 5- data <- read.table("tidy.txt") - Use this command to read the data file created from run_analysis.R
    180 observations/rows
    68 variables/columns
